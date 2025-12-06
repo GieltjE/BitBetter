@@ -72,9 +72,11 @@ You may now simply create the file `/path/to/bwdata/docker/docker-compose.overri
 services:
   api:
     image: bitbetter/api
+    pull_policy: never
 
   identity:
     image: bitbetter/identity
+    pull_policy: never
 ```
 
 You'll also want to edit the `/path/to/bwdata/scripts/run.sh` file. In the `function restart()` block, comment out the call to `dockerComposePull`.

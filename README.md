@@ -6,7 +6,7 @@ Please see the FAQ below for details on why this software was created.
 
 Be aware that this branch is only for the lite (formerly unified) version of bitwarden.
 
-_Beware! BitBetter does some semi janky stuff to rewrite the bitwarden core dll and allow the installation of a self signed certificate. Use at your own risk!_
+_Beware! BitBetter is a solution that generates a personal certificate and uses that to generate custom licences. This requires (automated) modifying of libraries. Use at your own risk!_
 
 Credit to https://github.com/h44z/BitBetter and https://github.com/jakeswenson/BitBetter and https://github.com/GieltjE/BitBetter
 

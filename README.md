@@ -4,7 +4,7 @@ BitBetter is is a tool to modify Bitwarden's core dll to allow you to generate y
 
 Please see the FAQ below for details on why this software was created.
 
-Be aware that this branch is only for the lite (formerly unified) version of bitwarden.
+Be aware that this branch is **only** for the lite (formerly unified) version of bitwarden. It has been rewritten and works in different ways than the master branch.
 
 _Beware! BitBetter is a solution that generates a personal certificate and uses that to generate custom licences. This requires (automated) modifying of libraries. Use at your own risk!_
 

@@ -32,7 +32,7 @@ The following instructions are for unix-based systems (Linux, BSD, macOS) and Wi
 ## Dependencies
 Aside from docker, which you also need for Bitwarden, BitBetter requires the following:
 
-* Bitwarden (tested with 1.47.1, might work on lower versions)
+* Bitwarden (tested with 2025.11.1 might work on lower versions), for safety always stay up to date
 * openssl (probably already installed on most Linux or WSL systems, any version should work, on Windows it will be auto installed using winget)
 
 ## Setting up BitBetter

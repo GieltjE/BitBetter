@@ -7,7 +7,7 @@ $opensslbinary = "$Env:Programfiles\OpenSSL-Win64\bin\openssl.exe"
 # if openssl is not installed attempt to install it
 if (!(Get-Command $opensslbinary -errorAction SilentlyContinue))
 {
-    winget install openssl
+	winget install openssl
 }
 
 # if previous keys exist, remove them

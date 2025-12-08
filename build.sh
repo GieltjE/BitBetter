@@ -20,19 +20,19 @@ if [ -d "$TEMPDIRECTORY" ]; then
 fi
 
 if [ -f "$PWD/src/licenseGen/Core.dll" ]; then
-    rm -f "$PWD/src/licenseGen/Core.dll"
+	rm -f "$PWD/src/licenseGen/Core.dll"
 fi
 
 if [ -f "$PWD/src/licenseGen/cert.pfx" ]; then
-    rm -f "$PWD/src/licenseGen/cert.pfx"
+	rm -f "$PWD/src/licenseGen/cert.pfx"
 fi
 
 if [ -f "$PWD/src/bitBetter/cert.cer" ]; then
-    rm -f "$PWD/src/bitBetter/cert.cer"
+	rm -f "$PWD/src/bitBetter/cert.cer"
 fi
 
 if [ -f "$PWD/.keys/cert.cert" ]; then
-    mv "$PWD/.keys/cert.cert" "$PWD/.keys/cert.cer"
+	mv "$PWD/.keys/cert.cert" "$PWD/.keys/cert.cer"
 fi
 
 # generate keys if none are available

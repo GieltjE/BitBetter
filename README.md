@@ -1,12 +1,14 @@
-# BitBetter
+# BitBetter lite
 
 BitBetter is is a tool to modify Bitwarden's core dll to allow you to generate your own individual and organisation licenses.
 
 Please see the FAQ below for details on why this software was created.
 
+Be aware that this branch is only for the lite (formerly unified) version of bitwarden.
+
 _Beware! BitBetter does some semi janky stuff to rewrite the bitwarden core dll and allow the installation of a self signed certificate. Use at your own risk!_
 
-Credit to https://github.com/h44z/BitBetter and https://github.com/jakeswenson/BitBetter
+Credit to https://github.com/h44z/BitBetter and https://github.com/jakeswenson/BitBetter and https://github.com/GieltjE/BitBetter
 
 # Table of Contents
 - [BitBetter](#bitbetter)
@@ -155,6 +157,15 @@ docker exec bitwarden ln -s /usr/share/zoneinfo/Europe/Amsterdam /etc/localtime
 ## Changes in settings.env
 
 Require a recreation of the docker container, build.sh will suffice too.
+
+## Migrating from the old unified branch
+
+```
+git branch -m unified lite
+git fetch origin
+git branch -u origin/lite lite
+git remote set-head origin -a
+```
 
 # Footnotes
 

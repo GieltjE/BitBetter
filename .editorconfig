@@ -13,3 +13,7 @@ charset=utf-8
 
 [*.{cs}]
 insert_final_newline=false
+
+[*.{md,mkdn}]
+trim_trailing_whitespace = true
+indent_style = space
